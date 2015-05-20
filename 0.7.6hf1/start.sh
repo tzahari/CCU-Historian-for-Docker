@@ -12,7 +12,7 @@ then
 
     if [[ -z "$CONFIG_CCU_TYPE" || -z "$CONFIG_CCU_IP" || -z "$CONFIG_HOST_IP" ]]
     then
-        echo "Config option are missing! CONFIG_TYPE, CONFIG_CCU_IP & CONFIG_HOST_IP required."
+        echo "Config option are missing! CONFIG_CCU_TYPE, CONFIG_CCU_IP & CONFIG_HOST_IP required."
         exit -1
     fi
     
