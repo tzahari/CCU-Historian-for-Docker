@@ -9,6 +9,23 @@ CCU-Historian: [Copyright (c) 2011-2014 MDZ](http://www.ccu-historian.de/index.p
 
 Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmail.com>
 
+## Installation
+
+* docker pull tzahar/ccu-historian
+
+
+### Verfügbare tags
+
+* latest für die letzte stabile Version
+* latest-dev für die letzte Entwicklerversion
+
+auch verfügbar:
+
+* 0.7.7dev-8
+* 0.7.6hf1
+* 0.6.0
+
+
 ## Freigegebene Ports
 
 * 80 TCP für den Webserver
@@ -17,6 +34,7 @@ Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmai
 ## Freigegebene Volumes
 
 * /database hier wird die Datenbank der CCU-Historian abgelegt
+* /opt/ccu-historian/config für die Konfiguration
 
 ## Konfiguration
 

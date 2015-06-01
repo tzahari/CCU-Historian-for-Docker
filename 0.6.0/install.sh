@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL=http://www.ccu-historian.de/uploads/CCU-Historian
-FILENAME=ccu-historian-0.7.6hf1-bin.zip
+FILENAME=ccu-historian-0.6.0-bin.zip
 FOLDER=/opt/ccu-historian
 FOLDERDB=/database
 
