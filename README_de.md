@@ -22,6 +22,8 @@ Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmai
 auch verfügbar:
 
 * 0.7.7dev-8
+* 0.7.7dev-9
+* 0.7.7dev-10
 * 0.7.6hf1
 * 0.6.0
 
@@ -46,6 +48,9 @@ Diese Umgebungsvariablen müssen beim ersten Start gesetzt sein:
 | CONFIG_CCU_IP       | | IP Adressse der CCU Zentrale |
 | CONFIG_HOST_IP      | | IP Adresse des Docker Host |
 | CONFIG_HOST_RPCPORT | | _Optional:_ Port für den RPC-Port |
+
+Weitere Konfigurationseinstellungen (z.B. CUXD) können direkt in der Datei ccu-historian.config geändert werden.
+Damit es etwas einfacher wird, kann man das Konfigurationsverzeichnis exportieren und ausserhalb des Docker Containers mit einem beliebigen Texteditor bearbeiten. 
 
 ## Links
 

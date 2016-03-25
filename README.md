@@ -24,6 +24,8 @@ Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmai
 also supported:
 
 * 0.7.7dev-8
+* 0.7.7dev-9
+* 0.7.7dev-10
 * 0.7.6hf1
 * 0.6.0
 
@@ -48,6 +50,9 @@ These Enviorment varibables must be set for the first start:
 | CONFIG_CCU_IP       | | IP of the CCU |
 | CONFIG_HOST_IP      | | IP of the Docker host |
 | CONFIG_HOST_RPCPORT | | _Optional:_ port of the RPC-port |
+
+Additional config settings should be made by changing the config file ccu-historian.config within the docker container. 
+It is easier to export the config folder out of the docker container and edit the file there.
 
 ## Links
 
