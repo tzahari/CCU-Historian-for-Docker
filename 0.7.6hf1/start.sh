@@ -1,7 +1,7 @@
 #!/bin/sh
 
 FOLDER=/opt/ccu-historian
-CONFIG=ccu-historian.config
+CONFIG=$FOLDER/config/ccu-historian.config
 
 cd $FOLDER
 
@@ -32,4 +32,4 @@ then
 
 fi
 
-java -jar ccu-historian.jar
+java -jar ccu-historian.jar -config $CONFIG
