@@ -3,13 +3,13 @@
 [Zur deutschen Version](README_de.md)
 
 In this project is the software [CCU-Historian](http://ccu-historian.de) packed into a [Docker Image](http://docker.com).
-This also runs on a [Synology NAS](http://synology.com) with [DSM 5.2](https://www.synology.com/dsm/app_packages/Docker).
+This also runs on a [Synology NAS](http://synology.com) with [DSM 5.2 or later](https://www.synology.com/dsm/app_packages/Docker).
 
 ### License
 
 CCU-Historian: [Copyright (c) 2011-2014 MDZ](http://www.ccu-historian.de/index.php?n=CCU-Historian.Lizenz) <info@ccu-historian.de>
 
-Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmail.com>
+Docker Image: [Copyright (c) 2015-2016 Thomas Zahari](LICENSE.md) <thomas.zahari@gmail.com>
 
 ## Installation
 
@@ -26,6 +26,7 @@ also supported:
 * 0.7.7dev-8
 * 0.7.7dev-9
 * 0.7.7dev-10
+* 0.7.7dev-14
 * 0.7.6hf1
 * 0.6.0
 

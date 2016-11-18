@@ -1,7 +1,7 @@
 #CCU-Historian for Docker
 
 In diesem Projekt wird die Software [CCU-Historian](http://ccu-historian.de) in einen [Docker Image](http://docker.com) verpackt.
-Dieses läuft z.B. auch auf einem [Synology NAS](http://synology.com) mit [DSM 5.2](https://www.synology.com/de-de/dsm/app_packages/Docker).
+Dieses läuft z.B. auch auf einem [Synology NAS](http://synology.com) mit [DSM 5.2 oder neuer](https://www.synology.com/de-de/dsm/app_packages/Docker).
 
 ### Lizenzen
 
@@ -24,6 +24,7 @@ auch verfügbar:
 * 0.7.7dev-8
 * 0.7.7dev-9
 * 0.7.7dev-10
+* 0.7.7dev-14
 * 0.7.6hf1
 * 0.6.0
 
