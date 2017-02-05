@@ -18,11 +18,12 @@ Docker Image: [Copyright (c) 2015-2016 Thomas Zahari](LICENSE.md) <thomas.zahari
 
 ### Supported tags
 
-* latest for the latest stable
-* latest-dev for the latest development release
+* latest for the latest stable (currenlty 1.0.0)
+* latest-dev for the latest development release (currently 1.0.0)
 
 also supported:
 
+* 1.0.0
 * 0.7.7dev-8
 * 0.7.7dev-9
 * 0.7.7dev-10

@@ -16,11 +16,12 @@ Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmai
 
 ### Verfügbare tags
 
-* latest für die letzte stabile Version
-* latest-dev für die letzte Entwicklerversion
+* latest für die letzte stabile Version (aktuell 1.0.0)
+* latest-dev für die letzte Entwicklerversion (aktuell 1.0.0)
 
 auch verfügbar:
 
+* 1.0.0
 * 0.7.7dev-8
 * 0.7.7dev-9
 * 0.7.7dev-10
