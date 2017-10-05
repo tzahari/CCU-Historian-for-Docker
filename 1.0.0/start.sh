@@ -32,4 +32,4 @@ then
 
 fi
 
-java -jar ccu-historian.jar -config $CONFIG
+java -cp 'ccu-historian_lib/*.jar' -jar ccu-historian.jar -config $CONFIG
