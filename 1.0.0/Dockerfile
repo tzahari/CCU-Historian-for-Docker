@@ -10,7 +10,7 @@ RUN bash -el /tmp/install.sh https://github.com/mdzio/ccu-historian/releases/dow
 
 ENV CONFIG_TYPE=CCU2
 
-EXPOSE 80 2089 2099
+EXPOSE 80 2098 2099
 
 VOLUME ["/database","/opt/ccu-historian/config"]
 
