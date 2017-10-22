@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM openjdk:8-jre
 MAINTAINER Thomas Zahari <thomas.zahari@gmail.com>
 
 ADD ./install.sh /tmp/
