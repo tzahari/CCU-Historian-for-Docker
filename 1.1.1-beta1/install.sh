@@ -22,7 +22,7 @@ mv start.sh $FOLDER
 mkdir $FOLDERDB
 mkdir $FOLDERDB/config
 
-echo "Cleanup ..."
+echo "Cleanup..."
 rm -fv "${FILENAME}"
 apt-get -y purge curl unzip
 apt -y autoremove

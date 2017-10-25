@@ -22,7 +22,7 @@ mv start.sh $FOLDER
 mkdir $FOLDERDB
 mkdir $FOLDERDB/config
 
-echo "Cleanup ..."
+echo "Cleanup..."
 rm -f "${FILENAME}"
 yum clean all
 
