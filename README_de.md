@@ -51,8 +51,8 @@ Diese Umgebungsvariablen müssen beim ersten Start gesetzt sein:
 | CONFIG_HOST_IP      | | IP Adresse des Docker Host |
 | CONFIG_HOST_RPCPORT | | _Optional:_ Port für den RPC-Port |
 
-Weitere Konfigurationseinstellungen (z.B. CUXD) können direkt in der Datei ccu-historian.config geändert werden.
-Damit es etwas einfacher wird, kann man das Konfigurationsverzeichnis exportieren und ausserhalb des Docker Containers mit einem beliebigen Texteditor bearbeiten. 
+Weitere Konfigurationseinstellungen (z.B. CUxD) können direkt in der Datei ccu-historian.config geändert werden.
+Damit es etwas einfacher wird, kann man das Konfigurationsverzeichnis exportieren und ausserhalb des Docker Containers mit einem beliebigen Texteditor bearbeiten.
 
 ## Links
 
