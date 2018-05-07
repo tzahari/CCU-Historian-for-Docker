@@ -9,6 +9,9 @@ WORKDIR /tmp
 RUN bash -el /tmp/install.sh https://github.com/mdzio/ccu-historian/releases/download/1.2.0/ccu-historian-1.2.0-bin.zip
 
 ENV CONFIG_TYPE=CCU2
+ENV TZ=UTC
+
+RUN ln -nsf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 EXPOSE 80 2098 2099
 
