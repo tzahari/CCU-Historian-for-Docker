@@ -1,9 +1,9 @@
-#CCU-Historian for Docker
+# CCU-Historian for Docker
 
 In diesem Projekt wird die Software [CCU-Historian](http://ccu-historian.de) in einen [Docker Image](http://docker.com) verpackt.
 Dieses läuft z.B. auch auf einem [Synology NAS](http://synology.com) mit [DSM 5.2 oder neuer](https://www.synology.com/de-de/dsm/app_packages/Docker).
 
-### Lizenzen
+## Lizenzen
 
 CCU-Historian: [Copyright (c) 2011-2014 MDZ](http://www.ccu-historian.de/index.php?n=CCU-Historian.Lizenz) <info@ccu-historian.de>
 
@@ -11,13 +11,12 @@ Docker Image: [Copyright (c) 2015 Thomas Zahari](LICENSE.md) <thomas.zahari@gmai
 
 ## Installation
 
-* docker pull tzahar/ccu-historian
-
+* docker pull tzahari/ccu-historian
 
 ### Verfügbare tags
 
-* latest für die letzte stabile Version (aktuell 1.0.0)
-* latest-dev für die letzte Entwicklerversion (aktuell 1.0.0)
+* latest für die letzte stabile Version (aktuell 1.2.0)
+* latest-dev für die letzte Entwicklerversion (aktuell 1.2.0)
 
 auch verfügbar:
 
@@ -28,7 +27,6 @@ auch verfügbar:
 * 0.7.7dev-14
 * 0.7.6hf1
 * 0.6.0
-
 
 ## Freigegebene Ports
 
@@ -51,8 +49,8 @@ Diese Umgebungsvariablen müssen beim ersten Start gesetzt sein:
 | CONFIG_HOST_IP      | | IP Adresse des Docker Host |
 | CONFIG_HOST_RPCPORT | | _Optional:_ Port für den RPC-Port |
 
-Weitere Konfigurationseinstellungen (z.B. CUXD) können direkt in der Datei ccu-historian.config geändert werden.
-Damit es etwas einfacher wird, kann man das Konfigurationsverzeichnis exportieren und ausserhalb des Docker Containers mit einem beliebigen Texteditor bearbeiten. 
+Weitere Konfigurationseinstellungen (z.B. CUxD) können direkt in der Datei ccu-historian.config geändert werden.
+Damit es etwas einfacher wird, kann man das Konfigurationsverzeichnis exportieren und ausserhalb des Docker Containers mit einem beliebigen Texteditor bearbeiten.
 
 ## Links
 
