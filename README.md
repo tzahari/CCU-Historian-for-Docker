@@ -1,4 +1,6 @@
-#CCU-Historian for Docker
+# CCU-Historian for Docker
+
+> Vielen Dank für die Rückmeldungen. Dieses Projekt wird aufgrund von Zeitmangel nicht mehr geplegt. Der Entwickler von CCU-Historian möchte selbst ein Docker Image anbieten.
 
 [Zur deutschen Version](README_de.md)
 
